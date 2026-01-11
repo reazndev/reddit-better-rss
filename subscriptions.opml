@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.1">
   <head>
-    <title>Better Reddit RSS Feeds (Tailscale)</title>
+    <title>Personal RSS Cloud (rss.ruu.by)</title>
   </head>
   <body>
-    <outline title="Reddit (Better)" text="Reddit (Better)">
-      <outline title="r/Damnthatsinteresting" text="r/Damnthatsinteresting" type="rss" xmlUrl="http://100.66.69.38:3020/Damnthatsinteresting?sort=top&amp;time=day&amp;limit=20&amp;score=5000"/>
-      <outline title="r/interestingasfuck" text="r/interestingasfuck" type="rss" xmlUrl="http://100.66.69.38:3020/interestingasfuck?sort=top&amp;time=day&amp;limit=20&amp;score=5000"/>
-      <outline title="r/todayilearned" text="r/todayilearned" type="rss" xmlUrl="http://100.66.69.38:3020/todayilearned?sort=top&amp;time=day&amp;limit=15&amp;score=3000"/>
-      <outline title="r/YouShouldKnow" text="r/YouShouldKnow" type="rss" xmlUrl="http://100.66.69.38:3020/YouShouldKnow?sort=top&amp;time=day&amp;limit=20&amp;score=1000"/>
-      <outline title="r/dataisbeautiful" text="r/dataisbeautiful" type="rss" xmlUrl="http://100.66.69.38:3020/dataisbeautiful?sort=top&amp;time=day&amp;limit=15&amp;score=2000"/>
-      <outline title="r/MapPorn" text="r/MapPorn" type="rss" xmlUrl="http://100.66.69.38:3020/MapPorn?sort=top&amp;time=day&amp;limit=10&amp;score=1000"/>
-      <outline title="r/HistoricalCapsule" text="r/HistoricalCapsule" type="rss" xmlUrl="http://100.66.69.38:3020/HistoricalCapsule?sort=top&amp;time=day&amp;limit=15&amp;score=500"/>
-      <outline title="r/HistoryUncovered" text="r/HistoryUncovered" type="rss" xmlUrl="http://100.66.69.38:3020/HistoryUncovered?sort=top&amp;time=day&amp;limit=15&amp;score=200"/>
-      <outline title="r/geography" text="r/geography" type="rss" xmlUrl="http://100.66.69.38:3020/geography?sort=top&amp;time=day&amp;limit=10&amp;score=500"/>
-      <outline title="r/linux" text="r/linux" type="rss" xmlUrl="http://100.66.69.38:3020/linux?sort=top&amp;time=day&amp;limit=20&amp;score=500"/>
-      <outline title="r/selfhosted" text="r/selfhosted" type="rss" xmlUrl="http://100.66.69.38:3020/selfhosted?sort=top&amp;time=day&amp;limit=20&amp;score=300"/>
-      <outline title="r/unixporn" text="r/unixporn" type="rss" xmlUrl="http://100.66.69.38:3020/unixporn?sort=top&amp;time=day&amp;limit=30&amp;score=500"/>
-      <outline title="r/privacy" text="r/privacy" type="rss" xmlUrl="http://100.66.69.38:3020/privacy?sort=top&amp;time=day&amp;limit=10&amp;score=200"/>
-      <outline title="r/technews" text="r/technews" type="rss" xmlUrl="http://100.66.69.38:3020/technews?sort=top&amp;time=day&amp;limit=15&amp;score=300"/>
-      <outline title="r/opensource" text="r/opensource" type="rss" xmlUrl="http://100.66.69.38:3020/opensource?sort=top&amp;time=day&amp;limit=15&amp;score=100"/>
-      <outline title="r/commandline" text="r/commandline" type="rss" xmlUrl="http://100.66.69.38:3020/commandline?sort=top&amp;time=day&amp;limit=10&amp;score=100"/>
-      <outline title="r/thinkpad" text="r/thinkpad" type="rss" xmlUrl="http://100.66.69.38:3020/thinkpad?sort=top&amp;time=day&amp;limit=5&amp;score=100"/>
-      <outline title="r/JetLagTheGame" text="r/JetLagTheGame" type="rss" xmlUrl="http://100.66.69.38:3020/JetLagTheGame?sort=top&amp;time=day&amp;limit=15&amp;score=100"/>
-      <outline title="r/Switzerland" text="r/Switzerland" type="rss" xmlUrl="http://100.66.69.38:3020/Switzerland?sort=top&amp;time=day&amp;limit=20&amp;score=200"/>
-      <outline title="r/askswitzerland" text="r/askswitzerland" type="rss" xmlUrl="http://100.66.69.38:3020/askswitzerland?sort=top&amp;time=day&amp;limit=20&amp;score=50"/>
-      <outline title="SwissPersonalFinance" text="SwissPersonalFinance" type="rss" xmlUrl="http://100.66.69.38:3020/SwissPersonalFinance?sort=top&amp;time=day&amp;limit=10&amp;score=50"/>
-      <outline title="r/UnderReportedNews" text="r/UnderReportedNews" type="rss" xmlUrl="http://100.66.69.38:3020/UnderReportedNews?sort=top&amp;time=day&amp;limit=20&amp;score=50"/>
+    <outline title="Reddit" text="Reddit">
+      <outline title="r/Damnthatsinteresting" text="r/Damnthatsinteresting" type="rss" xmlUrl="https://rss.ruu.by/Damnthatsinteresting?sort=top&amp;time=day&amp;limit=20&amp;score=5000"/>
+      <outline title="r/interestingasfuck" text="r/interestingasfuck" type="rss" xmlUrl="https://rss.ruu.by/interestingasfuck?sort=top&amp;time=day&amp;limit=20&amp;score=5000"/>
+      <outline title="r/todayilearned" text="r/todayilearned" type="rss" xmlUrl="https://rss.ruu.by/todayilearned?sort=top&amp;time=day&amp;limit=15&amp;score=3000"/>
+      <outline title="r/YouShouldKnow" text="r/YouShouldKnow" type="rss" xmlUrl="https://rss.ruu.by/YouShouldKnow?sort=top&amp;time=day&amp;limit=20&amp;score=1000"/>
+      <outline title="r/dataisbeautiful" text="r/dataisbeautiful" type="rss" xmlUrl="https://rss.ruu.by/dataisbeautiful?sort=top&amp;time=day&amp;limit=15&amp;score=2000"/>
+      <outline title="r/MapPorn" text="r/MapPorn" type="rss" xmlUrl="https://rss.ruu.by/MapPorn?sort=top&amp;time=day&amp;limit=10&amp;score=1000"/>
+      <outline title="r/HistoricalCapsule" text="r/HistoricalCapsule" type="rss" xmlUrl="https://rss.ruu.by/HistoricalCapsule?sort=top&amp;time=day&amp;limit=15&amp;score=500"/>
+      <outline title="r/HistoryUncovered" text="r/HistoryUncovered" type="rss" xmlUrl="https://rss.ruu.by/HistoryUncovered?sort=top&amp;time=day&amp;limit=15&amp;score=200"/>
+      <outline title="r/geography" text="r/geography" type="rss" xmlUrl="https://rss.ruu.by/geography?sort=top&amp;time=day&amp;limit=10&amp;score=500"/>
+      <outline title="r/linux" text="r/linux" type="rss" xmlUrl="https://rss.ruu.by/linux?sort=top&amp;time=day&amp;limit=20&amp;score=500"/>
+      <outline title="r/selfhosted" text="r/selfhosted" type="rss" xmlUrl="https://rss.ruu.by/selfhosted?sort=top&amp;time=day&amp;limit=20&amp;score=300"/>
+      <outline title="r/unixporn" text="r/unixporn" type="rss" xmlUrl="https://rss.ruu.by/unixporn?sort=top&amp;time=day&amp;limit=30&amp;score=500"/>
+      <outline title="r/privacy" text="r/privacy" type="rss" xmlUrl="https://rss.ruu.by/privacy?sort=top&amp;time=day&amp;limit=10&amp;score=200"/>
+      <outline title="r/technews" text="r/technews" type="rss" xmlUrl="https://rss.ruu.by/technews?sort=top&amp;time=day&amp;limit=15&amp;score=300"/>
+      <outline title="r/opensource" text="r/opensource" type="rss" xmlUrl="https://rss.ruu.by/opensource?sort=top&amp;time=day&amp;limit=15&amp;score=100"/>
+      <outline title="r/commandline" text="r/commandline" type="rss" xmlUrl="https://rss.ruu.by/commandline?sort=top&amp;time=day&amp;limit=10&amp;score=100"/>
+      <outline title="r/thinkpad" text="r/thinkpad" type="rss" xmlUrl="https://rss.ruu.by/thinkpad?sort=top&amp;time=day&amp;limit=5&amp;score=100"/>
+      <outline title="r/JetLagTheGame" text="r/JetLagTheGame" type="rss" xmlUrl="https://rss.ruu.by/JetLagTheGame?sort=top&amp;time=day&amp;limit=15&amp;score=100"/>
+      <outline title="r/Switzerland" text="r/Switzerland" type="rss" xmlUrl="https://rss.ruu.by/Switzerland?sort=top&amp;time=day&amp;limit=20&amp;score=200"/>
+      <outline title="r/askswitzerland" text="r/askswitzerland" type="rss" xmlUrl="https://rss.ruu.by/askswitzerland?sort=top&amp;time=day&amp;limit=20&amp;score=50"/>
+      <outline title="SwissPersonalFinance" text="SwissPersonalFinance" type="rss" xmlUrl="https://rss.ruu.by/SwissPersonalFinance?sort=top&amp;time=day&amp;limit=10&amp;score=50"/>
+      <outline title="r/UnderReportedNews" text="r/UnderReportedNews" type="rss" xmlUrl="https://rss.ruu.by/UnderReportedNews?sort=top&amp;time=day&amp;limit=20&amp;score=50"/>
     </outline>
   </body>
 </opml>

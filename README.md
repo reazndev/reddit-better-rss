@@ -1,58 +1,46 @@
-# Reddit RSS Feed with Comments
+# Reddit RSS Feed Generator
 
-This is a robust Node.js server that generates RSS feeds for any Subreddit, including full post content, images, and nested top comments.
+A self-hosted Node.js application that converts Reddit subreddits into rich RSS feeds with full post content, images, and top comments.
 
-## Usage
-
-### Local Setup
-1.  **Install Dependencies:**
-    ```bash
-    npm install
-    ```
-
-2.  **Start the Server:**
-    ```bash
-    npm start
-    ```
-
-3.  **Access Feed:**
-    `http://localhost:3020/subreddit_name`
-
-### Docker Setup
-1.  **Run with Docker Compose:**
-    ```bash
-    docker-compose up -d
-    ```
-    The server will be available at `http://localhost:3020`.
-
-## Advanced Query Parameters
-
-You can customize your feed by adding query parameters to the URL:
-
-| Parameter | Options | Description |
-| :--- | :--- | :--- |
-| `limit` | `1` to `25` | Number of posts to fetch (Default: `10`). |
-| `sort` | `hot`, `new`, `top`, `rising` | How to sort the posts (Default: `hot`). |
-| `time` | `hour`, `day`, `week`, `month`, `year`, `all` | Time filter for `top` sort (Default: `day`). |
-| `score` | Number (e.g., `500`) | Filter out posts with a score lower than this. |
-| `flair` | String (e.g., `News`) | Filter posts by a specific flair (case-insensitive). |
-
-### Examples:
-*   **Top 5 tech posts of the week:**
-    `http://localhost:3020/technology?sort=top&time=week&limit=5`
-*   **Only high-score posts from r/worldnews:**
-    `http://localhost:3020/worldnews?score=1000`
-*   **Filter by Flair:**
-    `http://localhost:3020/gaming?flair=official`
+**Live URL:** `https://rss.ruu.by`
 
 ## Features
 
-*   **No API Key Required:** Uses Reddit's public JSON endpoints.
-*   **Nested Comments:** Fetches the top 5 comments and up to 3 nested replies for each, providing a rich reading experience.
-*   **Media Support:** Automatically detects and embeds high-quality images and preview thumbnails.
-*   **Caching:** Caches results for 10 minutes to ensure performance and avoid rate limiting.
-*   **Robust Parsing:** Decodes HTML entities for clean readability in all RSS readers.
+*   **Full Content:** Fetches the full text and images/media for posts.
+*   **Comments:** Includes the top comments (and nested replies) in the feed description.
+*   **Smart Filtering:** Filter by score, flair, time, and sort order.
+*   **Caching:** Built-in caching to respect Reddit's API limits.
+*   **Dockerized:** Ready to deploy with Docker Compose.
 
-## Configuration
+## Quick Start (Docker)
 
-*   **Port:** The application runs on port `3020`. You can change this via the `PORT` environment variable.
+1.  **Navigate to directory:**
+    ```bash
+    cd reddit
+    ```
+
+2.  **Start the service:**
+    ```bash
+    docker-compose up -d --build
+    ```
+
+    The service will be running on **port 3020**.
+
+3.  **Reverse Proxy (Caddy/Nginx):**
+    Configure your reverse proxy (e.g., Caddy) to point `rss.ruu.by` to `localhost:3020`.
+
+    *Example Caddy config:*
+    ```caddy
+    rss.ruu.by {
+        reverse_proxy localhost:3020
+    }
+    ```
+
+## Usage
+
+**Format:** `https://rss.ruu.by/<subreddit>`
+
+### Examples
+*   **Technology:** `https://rss.ruu.by/technology`
+*   **Top of the Week:** `https://rss.ruu.by/worldnews?sort=top&time=week`
+*   **High Quality Only:** `https://rss.ruu.by/dataisbeautiful?score=1000`
