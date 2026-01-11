@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  reddit-rss:
+    build: .
+    container_name: reddit-rss
+    ports:
+      - "3020:3020"
+    restart: unless-stopped
+    environment:
+      - PORT=3020
+      # Optional: Add any other env vars here
